@@ -26,8 +26,8 @@ defmodule SocketV1 do
     [
       {:_,
         [
-          {"/", SocketV1.SocketHandler, []}
-          # {:_, Plug.Cowboy.Handler, {SocketV1.Router, []}}
+          {"/", SocketV1.SocketHandler, []},
+          {:_, Plug.Cowboy.Handler, {SocketV1.Router, []}}
         ]
       }
     ]

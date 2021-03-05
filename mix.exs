@@ -23,6 +23,7 @@ defmodule SocketV1.MixProject do
   defp deps do
     [
       {:cowboy, "~> 2.4"},
+      {:timex, "~> 3.6"},
       {:jason, "~> 1.2"},
       {:plug, "~> 1.7"},
       {:plug_cowboy, "~> 2.0"}
